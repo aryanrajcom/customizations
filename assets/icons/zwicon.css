@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'zwicon';
+  src:  url('fonts/zwicon.eot?7z0js6');
+  src:  url('fonts/zwicon.eot?7z0js6#iefix') format('embedded-opentype'),
+    url('fonts/zwicon.ttf?7z0js6') format('truetype'),
+    url('fonts/zwicon.woff?7z0js6') format('woff'),
+    url('fonts/zwicon.svg?7z0js6#zwicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="zwicon-"], [class*=" zwicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'zwicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zwicon-arrow-left:before {
+  content: "\e90f";
+}
+.zwicon-arrow-right:before {
+  content: "\e910";
+}
+.zwicon-archive:before {
+  content: "\e948";
+}
+.zwicon-note:before {
+  content: "\e94f";
+}
+.zwicon-script:before {
+  content: "\e951";
+}
+.zwicon-eraser:before {
+  content: "\e967";
+}
+.zwicon-eye-dropper:before {
+  content: "\e968";
+}
+.zwicon-magic-wand:before {
+  content: "\e96b";
+}
+.zwicon-marker:before {
+  content: "\e96c";
+}
+.zwicon-paint-bucket:before {
+  content: "\e96d";
+}
+.zwicon-palette:before {
+  content: "\e96f";
+}
+.zwicon-paste:before {
+  content: "\e971";
+}
+.zwicon-stamp:before {
+  content: "\e979";
+}
+.zwicon-activity:before {
+  content: "\e97b";
+}
+.zwicon-bolt:before {
+  content: "\e97e";
+}
+.zwicon-code:before {
+  content: "\e983";
+}
+.zwicon-database:before {
+  content: "\e985";
+}
+.zwicon-deploy:before {
+  content: "\e986";
+}
+.zwicon-lan:before {
+  content: "\e98f";
+}
+.zwicon-web:before {
+  content: "\e992";
+}
+.zwicon-window:before {
+  content: "\e996";
+}
+.zwicon-desktop:before {
+  content: "\e9a6";
+}
+.zwicon-devices:before {
+  content: "\e9a7";
+}
+.zwicon-hard-drive:before {
+  content: "\e9aa";
+}
+.zwicon-headphone:before {
+  content: "\e9ab";
+}
+.zwicon-imac:before {
+  content: "\e9ac";
+}
+.zwicon-mac-pro:before {
+  content: "\e9b5";
+}
+.zwicon-macbook-pro:before {
+  content: "\e9b6";
+}
+.zwicon-printer:before {
+  content: "\e9be";
+}
+.zwicon-server-stack:before {
+  content: "\e9bf";
+}
+.zwicon-voice-assistant:before {
+  content: "\e9c8";
+}
+.zwicon-bull-horn:before {
+  content: "\e9f0";
+}
+.zwicon-credit-card:before {
+  content: "\e9f2";
+}
+.zwicon-diamond:before {
+  content: "\e9f3";
+}
+.zwicon-package:before {
+  content: "\e9fb";
+}
+.zwicon-piggy-bank:before {
+  content: "\e9fc";
+}
+.zwicon-price-tag:before {
+  content: "\e9fe";
+}
+.zwicon-shopping-bag:before {
+  content: "\ea06";
+}
+.zwicon-shopping-cart:before {
+  content: "\ea07";
+}
+.zwicon-store:before {
+  content: "\ea08";
+}
+.zwicon-wallet:before {
+  content: "\ea09";
+}
+.zwicon-at:before {
+  content: "\ea2c";
+}
+.zwicon-attach-document:before {
+  content: "\ea2d";
+}
+.zwicon-paperclip:before {
+  content: "\ea2e";
+}
+.zwicon-exclamation-mark:before {
+  content: "\ea2f";
+}
+.zwicon-book-alt:before {
+  content: "\ea3a";
+}
+.zwicon-book:before {
+  content: "\ea3b";
+}
+.zwicon-bookmark:before {
+  content: "\ea3c";
+}
+.zwicon-calendar-day:before {
+  content: "\ea3e";
+}
+.zwicon-calendar-month:before {
+  content: "\ea3f";
+}
+.zwicon-calendar-week:before {
+  content: "\ea41";
+}
+.zwicon-chat:before {
+  content: "\ea45";
+}
+.zwicon-checkmark:before {
+  content: "\ea48";
+}
+.zwicon-close:before {
+  content: "\ea4c";
+}
+.zwicon-comment:before {
+  content: "\ea4e";
+}
+.zwicon-earth-alt:before {
+  content: "\ea52";
+}
+.zwicon-earth:before {
+  content: "\ea53";
+}
+.zwicon-flag:before {
+  content: "\ea59";
+}
+.zwicon-grid:before {
+  content: "\ea5a";
+}
+.zwicon-hamburger-menu:before {
+  content: "\ea5b";
+}
+.zwicon-heart:before {
+  content: "\ea5c";
+}
+.zwicon-home:before {
+  content: "\ea5d";
+}
+.zwicon-lifebelt:before {
+  content: "\ea60";
+}
+.zwicon-link:before {
+  content: "\ea61";
+}
+.zwicon-lock-alt:before {
+  content: "\ea62";
+}
+.zwicon-lock:before {
+  content: "\ea63";
+}
+.zwicon-mail:before {
+  content: "\ea64";
+}
+.zwicon-map-marker:before {
+  content: "\ea65";
+}
+.zwicon-minus:before {
+  content: "\ea68";
+}
+.zwicon-more-h:before {
+  content: "\ea69";
+}
+.zwicon-more-v:before {
+  content: "\ea6a";
+}
+.zwicon-password:before {
+  content: "\ea6c";
+}
+.zwicon-search:before {
+  content: "\ea72";
+}
+.zwicon-send:before {
+  content: "\ea73";
+}
+.zwicon-shortcut:before {
+  content: "\ea75";
+}
+.zwicon-thumbs-down:before {
+  content: "\ea78";
+}
+.zwicon-thumbs-up:before {
+  content: "\ea79";
+}
+.zwicon-trash:before {
+  content: "\ea7a";
+}
+.zwicon-unlink:before {
+  content: "\ea7b";
+}
+.zwicon-user-circle:before {
+  content: "\ea7d";
+}
+.zwicon-desktop-1:before {
+  content: "\ea89";
+}
+.zwicon-desktop-2:before {
+  content: "\ea8a";
+}
+.zwicon-desktop-3:before {
+  content: "\ea8b";
+}
+.zwicon-to-left:before {
+  content: "\ea9a";
+}
+.zwicon-to-right:before {
+  content: "\ea9b";
+}
+.zwicon-play-alt:before {
+  content: "\eab7";
+}
+.zwicon-video-alt:before {
+  content: "\eabc";
+}
+.zwicon-video-camera:before {
+  content: "\eabd";
+}
+.zwicon-ab-testing:before {
+  content: "\eb07";
+}
+.zwicon-backlog:before {
+  content: "\eb09";
+}
+.zwicon-design-studio:before {
+  content: "\eb0a";
+}
+.zwicon-design-validation:before {
+  content: "\eb0b";
+}
+.zwicon-information-architecture:before {
+  content: "\eb0c";
+}
+.zwicon-interview:before {
+  content: "\eb0d";
+}
+.zwicon-kanban-board:before {
+  content: "\eb0e";
+}
+.zwicon-paper-prototype:before {
+  content: "\eb10";
+}
+.zwicon-persona:before {
+  content: "\eb11";
+}
+.zwicon-prototype:before {
+  content: "\eb13";
+}
+.zwicon-responsive:before {
+  content: "\eb14";
+}
+.zwicon-stand-up:before {
+  content: "\eb16";
+}
