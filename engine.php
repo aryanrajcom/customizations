@@ -27,12 +27,21 @@ add_action( 'wp_enqueue_scripts', 'enqueue_custom_typography', 1 );
 function enqueue_custom_typography() {
 
   //* local typography
-  wp_enqueue_style( 'typography', plugin_dir_url( __FILE__ ) .  'assets/typography/fonts.css', array(), '1.0.0', 'all' );
+  wp_enqueue_style( 'typography', plugin_dir_url( __FILE__ ) .  'assets/typography/fonts.css' );
 
-  //* Typekit style
-  //wp_enqueue_style( 'typekit', 'https://use.typekit.net/fjt4joe.css', array(), '1.0.0', 'all' );
 }
 
+//* Add external style and scripts.
+add_action( 'wp_enqueue_scripts', 'external_style_script', 20 );
+function external_style_script() {
+	
+  //* Typekit style
+  //wp_enqueue_style( 'typekit', 'https://use.typekit.net/fjt4joe.css' );
+
+  //* jquery script
+  //wp_enqueue_script( 'jquery-cdn', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array(), '1.0.0', false );
+
+}
 
 //* Add Font Icons Style sheet.
 add_action( 'wp_enqueue_scripts', 'custom_font_icon_css', 100 );
@@ -49,10 +58,10 @@ add_action( 'wp_enqueue_scripts', 'custom_global_styles_scripts', 50 );
 function custom_global_styles_scripts() {
   
   //* Display global CSS
-  wp_enqueue_style( 'global-style', plugin_dir_url( __FILE__ ) .  'assets/css/global.css', array(), '1.0.0', 'all' );
+  wp_enqueue_style( 'global-style', plugin_dir_url( __FILE__ ) .  'assets/css/global.css' );
 
   //* Display global JS true=in footer false= in header
-  //wp_enqueue_script( 'global-script', plugin_dir_url( __FILE__ ) .  'assets/js/global.js', array( 'jquery' ), '1.0.0', false );
+  //wp_enqueue_script( 'global-script', plugin_dir_url( __FILE__ ) .  'assets/js/global.js', array(), '1.0.0', false );
 
 }
 
@@ -67,10 +76,10 @@ function custom_front_page_styles_scripts() {
   }
 	
   //* front-page.css
-  //wp_enqueue_style( 'front-page-style', plugin_dir_url( __FILE__ ) .  'assets/css/front-page.css', array(), '1.0.0', 'all' );
+  //wp_enqueue_style( 'front-page-style', plugin_dir_url( __FILE__ ) .  'assets/css/front-page.css' );
 	
   //* front-page.js
-  //wp_enqueue_script( 'front-page-script', plugin_dir_url( __FILE__ ) .  'assets/js/front-page.js', array( 'jquery' ), '1.0.0', true );
+  //wp_enqueue_script( 'front-page-script', plugin_dir_url( __FILE__ ) .  'assets/js/front-page.js', array(), '1.0.0', true );
 	
 }
 // Add Inline Script in wp_head, if Required.
@@ -89,11 +98,7 @@ add_action( 'wp_footer', 'init_inline_script_footer', 15 );
 function init_inline_script_footer() {
 
   ?>
-<script type="text/javascript">
 
-
-
-</script>
   
   <?php 
   
